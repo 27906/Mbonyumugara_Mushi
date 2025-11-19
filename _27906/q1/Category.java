@@ -1,5 +1,4 @@
 package _27906.q1;
-import _27906.q1.Warehouse;
 
 public class Category extends Warehouse {
     private String categoryName;

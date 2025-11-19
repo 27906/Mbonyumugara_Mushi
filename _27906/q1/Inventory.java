@@ -1,5 +1,4 @@
 package _27906.q1;
-import _27906.q1.Sale;
 
 public class Inventory extends Sale {
     private int totalItems;
