@@ -1,4 +1,4 @@
-package q6;
+package _27906.q6;
 
 import java.util.Date;
 import java.util.Scanner;
@@ -25,7 +25,7 @@ public final class Payslip extends Payroll {
     }
 
     public void displayAllDetails(String studentID) {
-        System.out.println("=== PAYSLIP DETAILS | StudentID: " + studentID + " ===");
+        System.out.println("=== PAYSLIP DETAILS | StudentID (27906): " + studentID + " ===");
         System.out.println("Entity ID: " + getId() + " | Created: " + getCreatedDate() + " | Updated: " + getUpdatedDate() + " | StudentID: " + studentID);
         System.out.println("Organization Name: " + getOrgName() + " | Org Code: " + getOrgCode() + " | RSSB#: " + getRssbNumber() + " | Contact Email: " + getContactEmail() + " | StudentID: " + studentID);
         System.out.println("Department Name: " + getDeptName() + " | Dept Code: " + getDeptCode() + " | Manager: " + getManagerName() + " | StudentID: " + studentID);
@@ -41,7 +41,7 @@ public final class Payslip extends Payroll {
 
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        String studentID = "27253";
+        String studentID = "27906";
 
         System.out.print("Enter employee full name: ");
         String name = sc.nextLine();

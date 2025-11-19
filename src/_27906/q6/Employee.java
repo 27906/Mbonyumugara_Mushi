@@ -1,4 +1,4 @@
-package q6;
+package _27906.q6;
 
 public class Employee extends Department {
     private int employeeID;

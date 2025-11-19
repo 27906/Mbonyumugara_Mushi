@@ -27,7 +27,7 @@ public final class AttendanceSummary extends LeaveRequest {
     }
 
     public void generateSummary(String studentID) {
-        System.out.println("===== ATTENDANCE SUMMARY =====");
+        System.out.println("===== ATTENDANCE SUMMARY - 27906 =====");
         System.out.println("Student: " + getStudentName() + " | StudentID: " + studentID);
         System.out.println("Session Date: " + getSessionDate() + " | StudentID: " + studentID);
         System.out.println("Topic: " + getTopic() + " | StudentID: " + studentID);
@@ -43,7 +43,7 @@ public final class AttendanceSummary extends LeaveRequest {
 
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        String studentID = "27253";
+        String studentID = "27906";
 
         System.out.print("Enter student name: ");
         String sName = sc.nextLine();

@@ -1,4 +1,4 @@
-package q6;
+package _27906.q6;
 
 public class Department extends Organization {
     private String deptName;

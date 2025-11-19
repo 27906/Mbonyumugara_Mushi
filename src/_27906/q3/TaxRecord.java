@@ -30,7 +30,7 @@ public final class TaxRecord extends Payment {
     }
 
     public void displayAllData(String studentID) {
-        System.out.println("===== TAX RECORD =====");
+        System.out.println("===== TAX RECORD - 27906 =====");
         System.out.println("Receipt No: " + receiptNo + " | StudentID: " + studentID);
         System.out.println("Taxpayer Name: " + getTaxpayerName() + " | StudentID: " + studentID);
         System.out.println("TIN: " + getTin() + " | StudentID: " + studentID);
@@ -45,7 +45,7 @@ public final class TaxRecord extends Payment {
 
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        String studentID = "27253";
+        String studentID = "27906";
 
         System.out.print("Enter taxpayer name: ");
         String tName = sc.nextLine();
